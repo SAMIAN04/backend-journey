@@ -1,0 +1,18 @@
+
+
+###  google
+
+GET  http://www.amazon.com
+###  Get Dashboard
+GET  http://localhost:3000/Dashboard
+###  Get Data
+GET  http://localhost:3000/api/data
+### POST 
+POST  http://localhost:3000/api/data
+Content-Type: application/json  
+
+{
+  "message": "fuck you"
+}
+### DELETE
+DELETE  http://localhost:3000/api/delete
